@@ -20,7 +20,7 @@
 <body>
     <header class="container">
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-light py-3 fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#home">
                     <img src="./images/logo.png" alt="logo">
@@ -33,13 +33,16 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-md-center text-sm-center text-center">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#carouselExampleControls">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#shoes">Shoes</a>
+                            <a class="nav-link" href="#panda-categories">Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#backpack">Backpack</a>
+                            <a class="nav-link" href="#panda-shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#panda-backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#subscribe">Subscribe</a>
@@ -51,7 +54,7 @@
         <!-- Navbar End -->
 
         <!-- Carousel Start -->
-        <div id="carouselExampleControls" class="carousel slide panda-bg rounded-3 mt-5 pt-4" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide panda-bg rounded-3 mt-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row d-flex align-items-center">
@@ -116,7 +119,8 @@
     <main class="container">
 
         <!-- Category Start -->
-        <div class="overflow-hidden text-center my-5">
+        <div id="panda-categories" class="overflow-hidden text-center my-5">
+            <h1 class="text-start my-5">Categories</h1>
             <div class="row gy-5">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="d-flex align-items-center justify-content-around p-3 border bg-warning rounded-3">
@@ -142,8 +146,8 @@
         <!-- Category End -->
 
         <!-- Shoes Section Start -->
-        <div class="row">
-            <h1>Shoes</h1>
+        <div class="row" id="panda-shoes">
+            <h1 class="mt-5">Shoes</h1>
             <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                 <div class="card border-0 shadow-lg">
                     <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -189,8 +193,8 @@
         <!-- Shoes Section End -->
 
         <!-- Backpack Section Start -->
-        <div class="row mt-5">
-            <h1>Backpack</h1>
+        <div class="row mt-5" id="panda-backpack">
+            <h1 class="mt-5">Backpack</h1>
             <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                 <div class="card border-0 shadow-lg">
                     <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
@@ -236,7 +240,7 @@
         <!-- Backpack Section End -->
 
         <!-- Registration Form Start -->
-        <form class="mt-5 panda-bg">
+        <form class="mt-5 panda-bg" id="subscribe">
             <div class="w-50 mx-auto py-5">
                 <div class="text-center">
                     <h1>LET'S STAY IN TOUCH</h1>
